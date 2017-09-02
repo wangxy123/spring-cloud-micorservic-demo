@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-service" />
+        <module name="eurekaserver" />
+        <module name="service-provider" />
+        <module name="spring-admin-web" />
+        <module name="spring-cloud-micorservice-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-service" target="1.7" />
+      <module name="eurekaserver" target="1.7" />
+      <module name="service-provider" target="1.7" />
+      <module name="spring-admin-web" target="1.7" />
+      <module name="spring-cloud-micorservice-demo" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
