@@ -7,6 +7,14 @@
     <groupId>com.xywang</groupId>
     <artifactId>spring-cloud-micorservice-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
+
+    <modules>
+        <module>config-service</module>
+        <module>eurekaserver</module>
+        <module>service-provider</module>
+        <module>spring-admin-web</module>
+    </modules>
 
 </project>

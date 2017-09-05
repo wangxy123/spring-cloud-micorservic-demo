@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-service" />
+        <module name="config-service (2)" />
         <module name="eurekaserver" />
         <module name="service-provider" />
         <module name="spring-admin-web" />
@@ -15,6 +16,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-service" target="1.7" />
+      <module name="config-service (1)" target="1.7" />
+      <module name="config-service (2)" target="1.7" />
       <module name="eurekaserver" target="1.7" />
       <module name="service-provider" target="1.7" />
       <module name="spring-admin-web" target="1.7" />
