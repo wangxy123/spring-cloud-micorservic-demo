@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -16,15 +17,15 @@ public class MainControoller {
 
     @Value("${test1}")
     private String test1;
-    @RequestMapping("/index")
+    @RequestMapping(value="/index", method = RequestMethod.GET)
     public String index(){
         return test1;
     }
-    @RequestMapping("/name")
+    @RequestMapping(value = "/name" , method = RequestMethod.GET)
     public String name(){
         return config.getName();
     }
-    @RequestMapping("/pass")
+    @RequestMapping(value = "/pass" ,method = RequestMethod.GET)
     public String pass(){
         return config.getPass();
     }
