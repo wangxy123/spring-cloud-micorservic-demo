@@ -17,14 +17,17 @@ public class MainControoller {
 
     @Value("${test1}")
     private String test1;
+
     @RequestMapping(value="/index", method = RequestMethod.GET)
     public String index(){
         return test1;
     }
+
     @RequestMapping(value = "/name" , method = RequestMethod.GET)
-    public String name(){
-        return config.getName();
+    public String name(String name){
+        return config.getName()+":"+name+":this is provider 2";
     }
+
     @RequestMapping(value = "/pass" ,method = RequestMethod.GET)
     public String pass(){
         return config.getPass();
