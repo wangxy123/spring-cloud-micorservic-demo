@@ -15,9 +15,8 @@ public class MainController {
 
     @Autowired
     ServiceProvider serviceProvider;
-
     @RequestMapping(value = "/name" , method = RequestMethod.GET)
     public String name(String name){
-        return "service-client:"+serviceProvider.name(name);
+        return serviceProvider.name(name);
     }
 }
