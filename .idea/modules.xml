@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/config-service/config-service.iml" filepath="$PROJECT_DIR$/config-service/config-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service-provider/service-provider.iml" filepath="$PROJECT_DIR$/service-provider/service-provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-admin-web/spring-admin-web.iml" filepath="$PROJECT_DIR$/spring-admin-web/spring-admin-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-micorservice-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-micorservice-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-service/config-service.iml" filepath="$PROJECT_DIR$/config-service/config-service.iml" group="spring-cloud-micservice-demo" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" group="spring-cloud-micservice-demo" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service-client.iml" filepath="$PROJECT_DIR$/service-client/service-client.iml" group="spring-cloud-micservice-demo" />
+      <module fileurl="file://$PROJECT_DIR$/service-provider/service-provider.iml" filepath="$PROJECT_DIR$/service-provider/service-provider.iml" group="spring-cloud-micservice-demo" />
+      <module fileurl="file://$PROJECT_DIR$/spring-admin-web/spring-admin-web.iml" filepath="$PROJECT_DIR$/spring-admin-web/spring-admin-web.iml" group="spring-cloud-micservice-demo" />
     </modules>
   </component>
 </project>

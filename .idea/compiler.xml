@@ -9,6 +9,7 @@
         <module name="config-service" />
         <module name="config-service (2)" />
         <module name="eurekaserver" />
+        <module name="service-client" />
         <module name="service-provider" />
         <module name="spring-admin-web" />
       </profile>
@@ -18,6 +19,7 @@
       <module name="config-service (1)" target="1.7" />
       <module name="config-service (2)" target="1.7" />
       <module name="eurekaserver" target="1.7" />
+      <module name="service-client" target="1.7" />
       <module name="service-provider" target="1.7" />
       <module name="spring-admin-web" target="1.7" />
       <module name="spring-cloud-micorservice-demo" target="1.7" />
